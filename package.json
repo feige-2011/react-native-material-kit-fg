@@ -1,9 +1,9 @@
 {
-  "name": "react-native-material-kit",
-  "version": "0.6.0-beta.2",
+  "name": "react-native-material-kit-fg",
+  "version": "0.6.5-beta.2",
   "description": "Bringing Material Design to React Native",
-  "main": "lib/index.js",
-  "typings": "lib/react-native-material-kit.d.ts",
+  "main": "src/index.js",
+  "typings": "src/react-native-material-kit.d.ts",
   "author": "Yingxin Wu <yingxinwu.g@gmail.com>",
   "contributors": [
     "Quentin Valmori (https://github.com/Crash--)",
@@ -21,11 +21,11 @@
     "material design",
     "MaterialKit"
   ],
-  "homepage": "https://github.com/xinthink/react-native-material-kit",
-  "bugs": "https://github.com/xinthink/react-native-material-kit/issues",
+  "homepage": "https://github.com/feige-2011/react-native-material-kit-fg",
+  "bugs": "https://github.com/feige-2011/react-native-material-kit-fg/issues",
   "repository": {
     "type": "git",
-    "url": "git://github.com/xinthink/react-native-material-kit.git"
+    "url": "git://github.com/feige-2011/react-native-material-kit-fg.git"
   },
   "devDependencies": {
     "@microsoft/api-documenter": "^7.3.11",
