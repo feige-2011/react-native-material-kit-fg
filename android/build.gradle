@@ -1,0 +1,38 @@
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.1'
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion project.hasProperty('compileSdkVersion') ? project.compileSdkVersion : 28
+    if (project.hasProperty('buildToolsVersion')) buildToolsVersion project.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion 16
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+}
+
+repositories {
+    mavenLocal()
+    google()
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    //noinspection GradleDynamicVersion
+    compileOnly 'com.facebook.react:react-native:+'
+    implementation 'androidx.annotation:annotation:1.1.0'
+}
