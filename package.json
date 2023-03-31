@@ -1,6 +1,6 @@
 {
-  "name": "react-native-material-kit",
-  "version": "0.6.0-beta.2",
+  "name": "react-native-material-kit-fg",
+  "version": "0.6.1-beta.2",
   "description": "Bringing Material Design to React Native",
   "main": "lib/index.js",
   "typings": "lib/react-native-material-kit.d.ts",
