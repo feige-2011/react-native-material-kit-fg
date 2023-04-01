@@ -29,7 +29,7 @@ import Textfield from './Textfield';
 export {
   AccentFab,
   AccentRaisedButton,
-  Button,
+  Button as MKButton,
   ColoredFab,
   ColoredRaisedButton,
   Fab,
