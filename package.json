@@ -1,6 +1,6 @@
 {
   "name": "react-native-material-kit-fg",
-  "version": "1.7.0-beta.2",
+  "version": "2.0.0",
   "description": "Bringing Material Design to React Native",
   "main": "src/index.ts",
   "typings": "src/react-native-material-kit.d.ts",
@@ -67,6 +67,9 @@
     "api-md": "api-documenter markdown --input-folder temp --output-folder docs/api"
   },
   "jest": {
-    "testPathIgnorePatterns": [ "/node_modules/", "/example/" ]
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/example/"
+    ]
   }
 }
