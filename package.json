@@ -1,6 +1,6 @@
 {
   "name": "react-native-material-kit-fg",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Bringing Material Design to React Native",
   "main": "src/index.ts",
   "typings": "src/react-native-material-kit.d.ts",
