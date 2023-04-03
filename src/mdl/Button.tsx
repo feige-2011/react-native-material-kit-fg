@@ -89,7 +89,7 @@ export default class Button extends Component<ButtonProps, ButtonState> {
   render() {
     const touchableProps: TouchableWithoutFeedbackProps = {};
     if (this.props.enabled) {
-      Object.assign(touchableProps, utils.extractTouchableProps(this));
+      Object.assign(touchableProps, utils.extractTouchableProps(this),{onPress:this.props.onPress});
     }
 
     // fix #57 applying `onLayout` to <Ripple>, <TouchableXXX> clones `onLayout` to it's child
